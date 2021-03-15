@@ -39,9 +39,9 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          © 1995 - {new Date().getFullYear()}, 
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a href="https://www.islamicity.org/">IslamiCity. </a> All Rights Reserved
         </footer>
       </div>
     </>

@@ -1,13 +1,13 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-
+import { AppBar } from '@material-ui/core';
 const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `rebeccapurple`,
       marginBottom: `1.45rem`,
-    }}
+    }} class={"MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary jss91 mui-fixed MuiPaper-elevation4"}
   >
     <div
       style={{
